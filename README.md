@@ -89,7 +89,7 @@ Use a multimeter to confirm 3.3V between VCC and GND on the JB connector before 
 Using W8 (SCL) and W10 (SDA) — which would allow the Pmod to plug directly into JB without jumper cables — did not work during testing. Root cause is unknown. Use jumper cables to W12 (SCL) and W11 (SDA) until this is investigated. See [bugs_and_fixes.md](docs/bugs_and_fixes.md) Bug #3.
 
 **7. Negative temperature path is untested.**  
-The ADT7420 uses two's complement for sub-zero readings. The current driver has only been validated on positive temperatures. The conversion math may produce incorrect results below 0°C. See [docs/03_vitis_application.md](docs/03_vitis_application.md).
+The ADT7420 uses two's complement for sub-zero readings. The current driver has only been validated on positive temperatures. The conversion math may produce incorrect results below 0°C. See [docs/project_walkthrough.md](docs/project_walkthrough.md).
 
 ---
 
