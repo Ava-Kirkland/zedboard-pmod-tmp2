@@ -34,6 +34,13 @@ pmod-tmp2/
     └── images/
 ```
 
+## File Structure
+```
+TMP2
+├── vivado
+└── ws_4
+```
+
 ---
 
 ## System Architecture
