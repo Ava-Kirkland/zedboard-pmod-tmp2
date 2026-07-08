@@ -61,6 +61,8 @@ End-to-end steps: Vivado block design → pin constraints → hardware connectio
 3. Click on the newly created external port (named `IIC_0_0` by default)
 4. In the **External Interface Properties** panel, rename it from `IIC_0_0` to `IIC_0` (remove the trailing `_0`)
 
+- Connect ```FCLK_CLK0``` to ```M_AXI_GPO_ACLK``` 
+  
 > Renaming matters: the port name must match what you reference in the XDC constraints file. The extra `_0` suffix is a Vivado 2025 artifact.
 
 ![Block design with IIC_0 external](images/block_design.png)
