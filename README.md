@@ -33,6 +33,7 @@ pmod-tmp2/
     ├── troubleshooting.md
     └── images/
 ```
+---
 
 ## File Structure
 ```
