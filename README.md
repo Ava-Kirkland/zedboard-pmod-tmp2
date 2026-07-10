@@ -19,22 +19,6 @@ Read temperature from a Digilent Pmod TMP2 (ADT7420) over I2C, using the Zynq PS
 
 ---
 
-## Repository Contents
-
-```
-pmod-tmp2/
-├── README.md
-├── main.c
-├── ADT7420.c
-├── ADT7420.h
-└── docs/
-    ├── project_walkthrough.md
-    ├── bugs_and_fixes.md
-    ├── troubleshooting.md
-    └── images/
-```
----
-
 ## File Structure
 ```
 TMP2
