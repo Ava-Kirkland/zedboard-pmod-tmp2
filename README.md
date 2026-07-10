@@ -91,3 +91,10 @@ The ADT7420 uses two's complement for sub-zero readings. The current driver has 
 - [ADT7420 Datasheet](https://www.analog.com/en/products/adt7420.html)
 - [ZedBoard Hardware User Guide](https://files.digilent.com/resources/programmable-logic/zedboard/ZedBoard_HW_UG_v2_2.pdf)
 - [Xilinx XIicPs Driver API](https://xilinx.github.io/embeddedsw.github.io/iicps/doc/html/api/index.html)
+
+## Related Projects
+
+## Related Projects
+
+- [`ZedBoard-OLED-TMP2`](https://github.com/Ava-Kirkland/ZedBoard-OLED-TMP2) - integrates this project with the Pmod TMP2 temperature sensor to display live temperature readings on the OLED
+- [`ZedBoard-OLED-Tutorial-Notes`](https://gitgub/Ava-Kirkland/ZedBoard-OLED-Tutorial-Notes) - standalone OLED project on the ZedBoard's onboard OLED
