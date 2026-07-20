@@ -92,10 +92,16 @@ The ADT7420 uses two's complement for sub-zero readings. The current driver has 
 - [ZedBoard Hardware User Guide](https://files.digilent.com/resources/programmable-logic/zedboard/ZedBoard_HW_UG_v2_2.pdf)
 - [Xilinx XIicPs Driver API](https://xilinx.github.io/embeddedsw.github.io/iicps/doc/html/api/index.html)
 
-## Related Projects
+
 
 ## Related Projects
 
-- [`ZedBoard-OLED-TMP2`](https://github.com/Ava-Kirkland/ZedBoard-OLED-TMP2) - integrates this project with the Pmod TMP2 temperature sensor to display live temperature readings on the OLED
-- [`ZedBoard-OLED-Tutorial-Notes`](https://github.com/Ava-Kirkland/ZedBoard-OLED-Tutorial-Notes) - standalone OLED project on the ZedBoard's onboard OLED
-- [`ZedBoard-APP-BLE-OLED-TMP2`](https://github.com/Ava-Kirkland/ZedBoard-APP-BLE-OLED-TMP2) - combining several standalone projects to develop an embedded system from Vivado to connecting to a custom app that displays the temperate
+This project builds on a series of standalone ZedBoard projects. Work through them in order if starting from scratch.
+
+| Project | Description | Link |
+|---|---|---|
+| ZedBoard OLED | Onboard OLED with custom AXI-Lite IP | [ZedBoard-OLED-Tutorial-Notes](https://github.com/Ava-Kirkland/ZedBoard-OLED-Tutorial-Notes) |
+| **ZedBoard Pmod TMP2** | ADT7420 temperature sensor over I2C | [ZedBoard-Pmod-TMP2](https://github.com/Ava-Kirkland/Zedboard-Pmod-TMP2) |
+| ZedBoard Pmod BLE | RN4871 UART bridge | [ZedBoard-BLE](https://github.com/Ava-Kirkland/ZedBoard-BLE) |
+| ZedBoard OLED + TMP2 | Combined OLED display with live temperature | [ZedBoard-OLED-TMP2](https://github.com/Ava-Kirkland/ZedBoard-OLED-TMP2) |
+| ZedBoard APP BLE OLED TMP2 | Added Flutter app over BLE | [ZedBoard-APP-OLED-TMP2](https://github.com/Ava-Kirkland/ZedBoard-APP-BLE-OLED-TMP2) |
