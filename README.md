@@ -98,3 +98,4 @@ The ADT7420 uses two's complement for sub-zero readings. The current driver has 
 
 - [`ZedBoard-OLED-TMP2`](https://github.com/Ava-Kirkland/ZedBoard-OLED-TMP2) - integrates this project with the Pmod TMP2 temperature sensor to display live temperature readings on the OLED
 - [`ZedBoard-OLED-Tutorial-Notes`](https://github.com/Ava-Kirkland/ZedBoard-OLED-Tutorial-Notes) - standalone OLED project on the ZedBoard's onboard OLED
+- [`ZedBoard-APP-BLE-OLED-TMP2`](https://github.com/Ava-Kirkland/ZedBoard-APP-BLE-OLED-TMP2) - combining several standalone projects to develop an embedded system from Vivado to connecting to a custom app that displays the temperate
